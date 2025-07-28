@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 
 // Replace with your actual Google Apps Script Web App URL
-const GOOGLE_SCRIPT_WEBHOOK_URL = 'https://script.google.com/macros/s/AKfycbzw9r8gtY8888yBE8x8bK6A8SGXokf8L6ceWh8NxhKbqZW0S6OdrgQyb9q3tESMhy_9/exec';
+const GOOGLE_SCRIPT_WEBHOOK_URL = 'https://script.google.com/macros/s/AKfycbxmxQbJBRlQzJH0l6avWdRQ99XwSRnwmhfOPpvBz9n3MLqDoLob9GakTRTd975h9bV6/exec';
 
 // Root route for health check and info
 app.get('/', (req, res) => {
